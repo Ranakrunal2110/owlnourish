@@ -1,0 +1,185 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "newsletter_RaGTac": {
+      "type": "newsletter",
+      "blocks": {
+        "image_8n4MGK": {
+          "type": "image",
+          "settings": {
+            "image_width": "66%"
+          }
+        }
+      },
+      "block_order": [
+        "image_8n4MGK"
+      ],
+      "settings": {
+        "container": "w-full",
+        "color_scheme": "dark",
+        "form_layout": "vertical",
+        "form_design": "1",
+        "heading": "Stay up to date with all fashion news<br> and exclusive offers",
+        "description": "",
+        "text_size": "h2",
+        "email_placeholder": "Enter your email",
+        "submit_button": "Subscribe",
+        "text_color": "inherit",
+        "show_icon": true,
+        "icon_img_width": "30",
+        "show_agreement": false,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "menu_MrqWQn": {
+          "type": "menu",
+          "settings": {
+            "menu": "main-menu",
+            "title": "Shop",
+            "width": "25%",
+            "order_first": false,
+            "open_default": false
+          }
+        },
+        "7ebc2f78-975b-4a81-b874-103c3355a866": {
+          "type": "menu",
+          "settings": {
+            "menu": "quick-links",
+            "title": "Information",
+            "width": "25%",
+            "order_first": false,
+            "open_default": false
+          }
+        },
+        "49e72833-c68f-4a7b-ab64-3ef0cae99bcb": {
+          "type": "menu",
+          "settings": {
+            "menu": "about-us",
+            "title": "Quick Links",
+            "width": "25%",
+            "order_first": false,
+            "open_default": false
+          }
+        },
+        "custom_text_AeMCGX": {
+          "type": "custom_text",
+          "settings": {
+            "title": "Customer Support",
+            "image_max": "200px",
+            "description": "<p><strong>Email<\/strong> - <a href=\"mailto:care@getphab.com\">care@getphab.com<\/a><\/p><p><strong>Customer Care<\/strong> - <a href=\"tel:1111111111\" title=\"tel:1111111111\">1111-111-111<\/a><\/p><p>Enter your email below to be the first to know about new collections and product launches.<\/p>",
+            "width": "25%",
+            "order_first": false,
+            "open_default": false
+          }
+        },
+        "93571032-b171-4c66-8b3e-96cd91946363": {
+          "type": "our_store",
+          "settings": {
+            "title": "Follow Us",
+            "description": "",
+            "show_email": false,
+            "show_phone": false,
+            "show_socials_link": true,
+            "width": "33%",
+            "order_first": false,
+            "open_default": false
+          }
+        }
+      },
+      "block_order": [
+        "menu_MrqWQn",
+        "7ebc2f78-975b-4a81-b874-103c3355a866",
+        "49e72833-c68f-4a7b-ab64-3ef0cae99bcb",
+        "custom_text_AeMCGX",
+        "93571032-b171-4c66-8b3e-96cd91946363"
+      ],
+      "custom_css": [
+        ".m-footer--block-spacing {width: 10%;}",
+        ".m-newsletter-form {margin-top: 24px;}",
+        ".m-footer--block-newsletter .m-footer--block-title {font-weight: 400; font-size: 25px;}",
+        "@media (min-width: 1280px) {.m-footer--block-newsletter .m-footer--block-title {font-size: 36px; margin-bottom: 12px; } .m-footer__copyright, .m-footer--bottom-menu {font-size: 14px; }}"
+      ],
+      "settings": {
+        "color_scheme": "dark",
+        "design": "footer-1",
+        "container": "container-full",
+        "bordered": false,
+        "copyright": "",
+        "show_country_selector": false,
+        "show_currency_selector": false,
+        "show_language_selector": false,
+        "show_social_links": false,
+        "enable_follow_on_shop": true,
+        "show_payment_icons": true,
+        "payment_icons_width": 300,
+        "footer_bottom_color_scheme": "dark",
+        "footer_bottom_menu": "",
+        "show_menu_item_divider": false
+      }
+    },
+    "mobile-sticky-bar": {
+      "type": "mobile-sticky-bar",
+      "disabled": true,
+      "settings": {
+        "show_mobile_sticky": true,
+        "show_home_icon": true,
+        "show_collection_icon": true,
+        "show_cart_icon": true,
+        "show_search_icon": true,
+        "show_account_icon": false,
+        "show_wishlist_icon": false
+      }
+    },
+    "age-verifier-popup": {
+      "type": "age-verifier-popup",
+      "blocks": {
+        "block-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Confirm your age"
+          }
+        },
+        "block-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Are you 18 years old or older?<\/p>"
+          }
+        },
+        "block-3": {
+          "type": "buttons",
+          "settings": {
+            "decline_button": "No, I'm not",
+            "approve_button": "Yes, I am"
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2",
+        "block-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "design_mode": false,
+        "enable": false,
+        "bg_blur": true,
+        "decline_heading": "Come back when you're older",
+        "decline_content": "<p>Sorry, the content of this store can't be seen by a younger audience. Come back when you're older.<\/p>",
+        "return_button": "Oops, I entered incorrectly"
+      }
+    }
+  },
+  "order": [
+    "newsletter_RaGTac",
+    "footer",
+    "mobile-sticky-bar",
+    "age-verifier-popup"
+  ]
+}
